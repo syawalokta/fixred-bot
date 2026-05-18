@@ -1,0 +1,53 @@
+# dependencies
+node_modules/
+
+# env
+.env
+.env.local
+.env.*
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# runtime
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# build
+dist/
+build/
+.next/
+out/
+
+# cache
+.cache/
+.parcel-cache/
+.turbo/
+.vite/
+
+# editor
+.vscode/
+.idea/
+
+# os
+.DS_Store
+Thumbs.db
+
+# temporary
+tmp/
+temp/
+
+# testing
+coverage/
+
+# package manager
+.pnpm-store/
+
+# typescript
+*.tsbuildinfo
